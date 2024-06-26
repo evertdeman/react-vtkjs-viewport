@@ -4,7 +4,7 @@
   "description": "VTK.js image viewport component for React",
   "author": "OHIF Contributors",
   "license": "MIT",
-  "repository": "OHIF/react-vtkjs-viewport",
+  "repository": "evertdeman/react-vtkjs-viewport",
   "main": "dist/index.umd.js",
   "module": "src/index.js",
   "engines": {
@@ -24,9 +24,9 @@
   "peerDependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "vtk.js": "^11.14.0",
-    "cornerstone-core": "^2.5.0",
-    "cornerstone-tools": "^6.0.0"
+    "vtk.js": "^19.2.8",
+    "cornerstone-core": "^2.6.1",
+    "cornerstone-tools": "^6.0.10"
   },
   "dependencies": {
     "date-fns": "^2.2.1",
@@ -47,9 +47,9 @@
     "babel-loader": "8.0.6",
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^5.0.4",
-    "cornerstone-core": "^2.5.0",
+    "cornerstone-core": "^2.6.1",
     "cornerstone-math": "^0.1.9",
-    "cornerstone-tools": "^6.0.0",
+    "cornerstone-tools": "^6.0.10",
     "cornerstone-wado-image-loader": "^4.0.0",
     "cross-env": "^5.2.0",
     "css-loader": "^3.0.0",
@@ -75,7 +75,7 @@
     "prettier": "^1.18.2",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
-    "react-cornerstone-viewport": "^4.1.1",
+    "react-cornerstone-viewport": "^4.1.5",
     "react-dom": "^16.8.6",
     "react-resize-detector": "^4.2.0",
     "react-router-dom": "^5.0.1",
@@ -84,12 +84,12 @@
     "style-loader": "^0.23.1",
     "stylelint": "^10.1.0",
     "stylelint-config-recommended": "^2.2.0",
-    "vtk.js": "^11.14.0",
+    "vtk.js": "^19.2.8",
     "webpack": "4.34.0",
     "webpack-cli": "^3.3.4",
     "webpack-dev-server": "^3.8.0",
     "webpack-merge": "^4.2.2",
-    "worker-loader": "^2.0.0"
+    "worker-loader": "^3.0.8"
   },
   "husky": {
     "hooks": {
